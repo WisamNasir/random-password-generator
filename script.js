@@ -19,3 +19,10 @@ function generatePassword() {
     document.getElementById("pw-generated").value = passwordText;
 }
 
+function sliderValue() {
+    var slider = document.getElementById("pw-length").value;
+    document.getElementById("value").innerHTML = slider;
+}
+
+
+
